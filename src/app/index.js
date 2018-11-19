@@ -1,5 +1,4 @@
 import React   from 'react';
-import createClass  from 'create-react-class'
 import PropTypes from 'prop-types'
 import ReactDOM from 'react-dom'
 
