@@ -2,7 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Hello world</title>
+    <title>Add color</title>
+    <style>
+        .star {
+            cursor: pointer;
+            height: 25px;
+            width: 25px;
+            margin: 2px;
+            float: left;
+            background-color: grey;
+            clip-path: polygon(
+                    50% 0%,
+                    63% 38%,
+                    100% 38%,
+                    69% 59%,
+                    82% 100%,
+                    50% 75%,
+                    18% 100%,
+                    31% 59%,
+                    0% 38%,
+                    37% 38%
+            );
+        }
+        .star.selected {
+            background-color: red;
+        }
+
+    </style>
 </head>
 <body>
 <div id="react-container"></div>
